@@ -1,0 +1,118 @@
+.gif-background{
+	background-image: url("../images/hearts.gif");
+	font-family: 'Yesteryear', cursive;
+}
+
+.img-circle, #valentine-greetings{
+	display: none;
+}
+
+#intro, #slide-pictures{
+	text-align: center; 
+	width: 100%;
+}
+
+#instruct{
+	font-size: 2vw; 
+	font-family:'Mogra', cursive;
+}
+
+#arrow{
+	font-size: 5vw; 
+	position: relative; 
+	margin-bottom: 5px; 
+	margin-top: 5px;
+}
+
+.img-circle{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 8px solid #ff3333;
+	overflow: hidden;
+}
+
+#slide-pictures{
+	text-align: center;
+	position: relative;
+}
+
+#valentine-greetings{
+	color: #ff3333;
+	font-size: 4em;
+}
+
+#volume{
+	opacity: .8;
+	font-size: 1.3em;
+}
+
+#volume:hover, #tap-letter:hover{
+	cursor: pointer;
+}
+
+#heart:hover, #heart:focus{
+	cursor: pointer;
+}
+
+@media(max-width: 600px){
+	.gif-background{
+		background-size: 100% 100%;
+	}
+	.img-circle{
+		width: 80%;
+		height: 80%;
+	}
+
+	#valentine-greetings{
+		font-size: 3em;
+	}
+
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+
+	#heart{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media(max-width: 767px){
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+
+	.img-circle{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+}
